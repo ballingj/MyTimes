@@ -1,4 +1,6 @@
-
+div {
+  border: 1px solid black;
+}
 
 header {
   font-family: Verdana;
@@ -42,4 +44,34 @@ nav span {
 
 a {
   color: black;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.cookie {
+  width: 235px;
 }
