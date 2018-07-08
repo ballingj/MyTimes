@@ -83,6 +83,8 @@ a {
   width: 300px;
 }
 
+/* Third Column */
+
 .column.small {
   width: 240px;
 }
@@ -90,6 +92,29 @@ a {
 .cookie {
   height: 240px;
 }
+.news-bites h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 41px;
+  text-align: center;
+}
+
+.news-bites .bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+}
+
+.bite span {
+  padding-left: 11px;
+}
+
+
+
 
 .photo {
   display: flex;
